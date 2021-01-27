@@ -49,7 +49,7 @@ nav ul > li:nth-child(6){
   margin-left: 100px;
 }
 
-a{
+li > a{
   text-decoration: none;
   color: white;
 }
@@ -63,15 +63,15 @@ button{
   background-color: #7cbb02;
 }
 
-.plane{
-  color: white;
-}
-
 #login{
   color: white;
   width: 100px;
   background-color: #0c325a;
   border: 1px solid white;
+}
+
+.butt{
+  color: white;
 }
 
 .messaggio{
@@ -141,16 +141,24 @@ h5, p{
   margin-left: 5%;
 }
 
+#level{
+  height: 50vh;
+}
 
-
-
-/* .level{
-  width: 40%;
-  height: 90%;
+.plane{
+  width: 35%;
+  margin-left: 10%;
   float: left;
-  margin-left: 5%;
-  background:white;
-} */
+}
+
+div .plane > h2{
+  font-size: 40px;
+}
+
+div .plane > p{
+  font-size: 20px;
+}
+
 
 footer{
   height: 10vh;
