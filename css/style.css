@@ -70,7 +70,21 @@ button{
   border: 1px solid white;
 }
 
+.messaggio{
+  width: 40%;
+  position: absolute;
+  bottom:220px;
+  left:100px;
+}
 
+.messaggio > button{
+  margin-top: 20px;
+}
+
+h1{
+  font-size: 60px;
+  color: white;
+}
 
 
 /* .motto{
