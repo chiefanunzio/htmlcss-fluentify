@@ -3,31 +3,44 @@
   padding: 0;
   box-sizing: border-box;
 }
-    /* REGOLE DEB */
 
 header{
-  height: 60vh;
-  background: blue;
+  height: 85vh;
+  background-color: #0c325a;
   position: relative;
 }
 
-h1{
-  width: 200px;
-  height: 100px;
-  background: red;
+.margin-box{
+  padding: 2% 5%;
+}
+
+#back{
   position: absolute;
-  left: 5%;
-  bottom: 30%;
+  right: 0;
+  bottom: 0;
+  width: 70%;
 }
-
 nav{
-  height: 30px;
-  width: 80%;
-  margin-left: 5%;
-  background: red;
+  display: inline-block;
+}
+nav ul > li{
+  display: inline-block;
+  margin-left: 20px;
 }
 
-.motto{
+a{
+  text-decoration: none;
+  color: white;
+}
+
+nav img:only-of-type{
+  margin-right: 30px;
+}
+
+
+
+
+/* .motto{
   height: 10vh;
   background: lightgrey;
 
@@ -82,4 +95,4 @@ nav{
 footer{
   height: 10vh;
   background: grey;
-}
+} */
