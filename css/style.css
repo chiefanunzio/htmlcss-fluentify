@@ -3,3 +3,31 @@
   padding: 0;
   box-sizing: border-box;
 }
+    /* REGOLE DEB */
+
+header{
+  height: 60vh;
+  background: blue;
+  position: relative;
+}
+
+h1{
+  width: 200px;
+  height: 100px;
+  background: red;
+  position: absolute;
+  left: 10%;
+  bottom: 30%;
+}
+
+nav{
+  height: 30px;
+  width: 80%;
+  margin: auto;
+  background: red
+}
+
+footer{
+  height: 10vh;
+  background: grey;
+}
