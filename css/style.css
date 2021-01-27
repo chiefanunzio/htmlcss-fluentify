@@ -172,13 +172,18 @@ footer > h2{
   float: right;
 }
 
-.log > span, select, button{
+.log > span, button{
   margin-right: 20px;
 }
 
-select{
-  color: black;
-  background: none;
-  border: none;
-  text-decoration: underline;
+.selettore{
+  display: inline-block;
+  width: 150px;
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.selettore::after{
+  content: ' \25BE';
+  margin-left: 90%;
 }
