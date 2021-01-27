@@ -159,8 +159,26 @@ div .plane > p{
   font-size: 20px;
 }
 
-
 footer{
-  height: 10vh;
-  background: grey;
+  height: 15vh;
+  background: #d3d3d3;
+}
+footer > h2{
+  float: left;
+  display: inline;
+}
+
+.log{
+  float: right;
+}
+
+.log > span, select, button{
+  margin-right: 20px;
+}
+
+select{
+  color: black;
+  background: none;
+  border: none;
+  text-decoration: underline;
 }
