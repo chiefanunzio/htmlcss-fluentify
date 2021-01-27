@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body{
+  font-family: 'Roboto', sans-serif;
+}
+
 header{
   height: 85vh;
   background-color: #0c325a;
@@ -71,7 +75,7 @@ button{
 }
 
 .messaggio{
-  width: 40%;
+  width: 45%;
   position: absolute;
   bottom:220px;
   left:100px;
@@ -86,11 +90,16 @@ h1{
   color: white;
 }
 
-
-/* .motto{
+.motto{
   height: 10vh;
   background: lightgrey;
+  text-align: center;
+  padding: 10px;
+}
 
+.motto > h5{
+  color: grey;
+  margin-top: 5px;
 }
 
 .row{
@@ -142,4 +151,4 @@ h1{
 footer{
   height: 10vh;
   background: grey;
-} */
+}
