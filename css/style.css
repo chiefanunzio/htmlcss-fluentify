@@ -16,15 +16,67 @@ h1{
   height: 100px;
   background: red;
   position: absolute;
-  left: 10%;
+  left: 5%;
   bottom: 30%;
 }
 
 nav{
   height: 30px;
   width: 80%;
-  margin: auto;
-  background: red
+  margin-left: 5%;
+  background: red;
+}
+
+.motto{
+  height: 10vh;
+  background: lightgrey;
+
+}
+
+.row{
+  position: relative;
+  height: 50vh;
+  background: green;
+  border: 1px solid black;
+}
+
+.row::after{
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.contain{
+  height: 80%;
+  width: calc(100% / 3 - 6%);
+  background: yellow;
+  border:1px solid black;
+  margin-top: 2%;
+  float: left;
+}
+
+.contain:nth-child(2){
+  margin:2% 3%;
+}
+.contain:first-child{
+  margin-left: 5%;
+}
+
+
+
+.row > img{
+  width: 40%;
+  height: 90%;
+  margin-left: 10%;
+  background: red;
+}
+
+.level{
+  width: 40%;
+  height: 90%;
+  float: left;
+  margin-left: 5%;
+  background:white;
 }
 
 footer{
