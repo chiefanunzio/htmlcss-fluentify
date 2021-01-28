@@ -185,5 +185,4 @@ footer > h2{
 
 .selettore::after{
   content: ' \25BE';
-  margin-left: 90%;
 }
